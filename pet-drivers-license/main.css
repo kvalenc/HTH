@@ -1,0 +1,48 @@
+
+body {
+    background-color: black;
+}
+
+.line {
+    height: 4px;
+    background: black;
+    width: 100%;
+    margin: auto;
+}
+
+.license-card {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.license {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 4px black;
+}
+
+.photo img {
+    border-radius: 10px;
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px auto;
+}
